@@ -1,3 +1,4 @@
 /.idea/
 /__pycache__/
+/configMail.json
 /config.json

@@ -45,6 +45,6 @@ class BddVulnerablilite:
             cursor.execute(req, data)
             self.mydb.commit()
             cursor.close()
-            return "La CVE : " + cve + " à bien été ajoutée"
+            return True
         else :
-            return "La CVE : " + cve + " est déjà enrgistrée"
+            return False
